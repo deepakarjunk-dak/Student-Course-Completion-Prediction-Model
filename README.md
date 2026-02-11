@@ -24,15 +24,15 @@ Correlation analysis identified high-impact predictors.
 Some features required scaling and missing value treatment.
 
 🏗️ ML Pipeline -
-Data Collection
-Data Cleaning & Preprocessing
-Feature Engineering
-Statistical Test
-Train-Test Split
-Model Training
-Model Comparison
-Threshold Tuning
-Model Evaluation
+Data Collection,
+Data Cleaning & Preprocessing,
+Feature Engineering,
+Statistical Test,
+Train-Test Split,
+Model Training,
+Model Comparison,
+Threshold Tuning,
+Model Evaluation.
 
 🤖 Models Used -
 Logistic Regression (Baseline Model & Best Performing Model),
@@ -46,17 +46,17 @@ XGBoost,
 📈 Evaluation Metrics -
 Since this is an imbalanced classification problem, accuracy alone was not sufficient.
 The following metrics were used:
-Confusion Matrix
-Precision
-Recall
-F1-Score
-ROC-AUC
+Confusion Matrix,
+Precision,
+Recall,
+F1-Score,
+ROC-AUC.
 
 🧮 Confusion Matrix Interpretation - 
-True Positives → Correctly predicted completed students
-True Negatives → Correctly predicted non-completed students
-False Positives → Incorrect completion prediction
-False Negatives → Missed at-risk students
+True Positives → Correctly predicted completed students;
+True Negatives → Correctly predicted non-completed students;
+False Positives → Incorrect completion prediction;
+False Negatives → Missed at-risk students.
 
 📌 Business Impact -
 By maximizing recall, the model reduces the number of at-risk students that go undetected.
@@ -66,8 +66,8 @@ Provide academic counseling
 Improve overall completion rate
 
 🛠 Tech Stack -
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+Python, 
+Pandas,
+NumPy,
+Matplotlib,
+Seaborn.
