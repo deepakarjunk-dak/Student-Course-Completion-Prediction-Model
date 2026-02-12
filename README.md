@@ -57,7 +57,7 @@ Identify dropout risks early
 Provide academic counseling
 Improve overall completion rate
 
-## 🛠 Tech Stack -
+## 🛠 Tech Stack 
 Python, 
 Pandas,
 NumPy,
