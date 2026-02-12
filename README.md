@@ -6,7 +6,13 @@ End-to-end Supervised ML pipeline for student course completion prediction with 
 Online Ed-Tech platforms face challenges in identifying students at risk of dropping out.
 This project aims to predict course completion early so that proactive interventions can be implemented.
 
-## 📊 Dataset Overview  
+## 📂 Dataset
+The dataset used for this project is publicly available on Kaggle:
+
+🔗 **Kaggle Link:**  
+https://www.kaggle.com/datasets/nisargpatel344/student-course-completion-prediction-dataset
+
+## 📊 Dataset Overview 
 
 Target Variable:
 0 → Not Completed
