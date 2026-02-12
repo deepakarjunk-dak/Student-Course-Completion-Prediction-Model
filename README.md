@@ -3,8 +3,10 @@ End-to-end Supervised ML pipeline for student course completion prediction with 
 
 
 ## 🚀 Problem Statement  
-Online Ed-Tech platforms face challenges in identifying students at risk of dropping out.
-This project aims to predict course completion early so that proactive interventions can be implemented.
+Online Ed-Tech platforms experience significant student dropouts, resulting in reduced course completion rates and negative impact on the business. 	Hence, there is a need for a predictive model that can accurately estimate a student’s likelihood of completing a course based on learning behavior, engagement and technological factors etc.
+
+## 💡 Suggested Solution
+This project aims to predict course completion early so that proactive interventions can be implemented and facilitating the company to ensure student retention and successful completion of the course that proactively increases the company’s profit.
 
 ## 📂 Dataset
 The dataset used for this project is publicly available on Kaggle:
@@ -69,3 +71,17 @@ Pandas,
 NumPy,
 Matplotlib,
 Seaborn.
+
+## Best Model: Logistic Regression
+The dataset features showed a largely linear relationship with the target variable (Completed). Logistic Regression effectively captured this relationship without overfitting. In an educational platform scenario, interpretability is critical.
+- Understanding why a student is predicted as “Not Completed” is often more valuable than slight improvements in accuracy from complex models.
+- Therefore, Logistic Regression provides: Reliable predictions, Transparency and also deployment simplicity
+
+## 📊 Model Performance (Logistic Regression)
+
+- Accuracy: 61%
+- Precision: 61%
+- Recall: 63%
+- F1-score: 62%
+- ROC-AUC: 0.65
+
