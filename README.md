@@ -23,15 +23,8 @@ Correlation analysis identified high-impact predictors.
 Some features required scaling and missing value treatment.
 
 ## 🏗️ ML Pipeline 
-Data Collection,
-Data Cleaning & Preprocessing,
-Feature Engineering,
-Statistical Test,
-Train-Test Split,
-Model Training,
-Model Comparison,
-Threshold Tuning,
-Model Evaluation.
+Business Problem Understanding -> Data Collection -> Data Cleaning & Preprocessing -> Feature Engineering -> 
+ Statistical Test -> Train-Test Split -> Model Training -> Model Comparison -> Threshold Tuning -> Model Evaluation.
 
 ## 🤖 Models Used 
 Logistic Regression (Baseline Model & Best Performing Model),
